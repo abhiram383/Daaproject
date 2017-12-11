@@ -17,19 +17,19 @@ will try to find the closest available emergency vehicle
   The objective of the project is to finding and allocating the available emergency vehicle from the nearest zipcode checking on availability providing the Zipcode and Emergency vehicle type as input for the algorithm
   
 ### Types of vehicles:
-  ** Ambulance
-  ** Fire Truck
-  ** Police
+  * Ambulance
+  * Fire Truck
+  * Police
 ### Attributes considered:
-  ** Zipcodes as nodes
-  ** Distances as the edges weight with connected vertices
-  ** Vehicle type: among the above three types
+  * Zipcodes as nodes
+  * Distances as the edges weight with connected vertices
+  * Vehicle type: among the above three types
 ### Data set provided:
 We implemented this algorithm using the JSON data as the input type data, as JSON is the easy to access and parse.  
 Dataset was available in the source code as:
-    ** data.json
-    ** datademo1.json
-    ** datademo2.json
+   * data.json
+   * datademo1.json
+   * datademo2.json
 
 * Make up the data for the project. Generated the files at run time, having stored into a separate output file in the format of JSON
 
