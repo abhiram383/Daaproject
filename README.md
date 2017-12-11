@@ -20,16 +20,25 @@ will try to find the closest available emergency vehicle
   * Ambulance
   * Fire Truck
   * Police
+  
 ### Attributes considered:
   * Zipcodes as nodes
   * Distances as the edges weight with connected vertices
   * Vehicle type: among the above three types
-### Data set provided:
+  
+### Data set provided: (https://github.com/abhiram383/Daaproject/blob/master/DAA/data.json)
 We implemented this algorithm using the JSON data as the input type data, as JSON is the easy to access and parse.  
 Dataset was available in the source code as:
    * data.json
    * datademo1.json
    * datademo2.json
+
+## Classes Implemented:
+  * Dijkstras: (https://github.com/abhiram383/Daaproject/blob/master/DAA/dijkstra.py)
+  * Main     : (https://github.com/abhiram383/Daaproject/blob/master/DAA/main.py)
+ 
+## Visualization:
+* Visualization of the output data was implemented using the Bootstrap with conversion of JSON data into HTML tables to access the data and the output vehicles for the better user interface
 
 * Make up the data for the project. Generated the files at run time, having stored into a separate output file in the format of JSON
 
